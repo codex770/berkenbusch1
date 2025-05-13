@@ -52,6 +52,8 @@ bash
 python manage.py runserver
 
 
+
+
 🔌 API Endpoints
 Method	Endpoint	Description
 POST	/api/upload/	Upload any file (.csv, .kml, .shp, etc)
@@ -77,3 +79,27 @@ Spatial data stored in geometry fields
 Junaid Rana
 github.com/codex770
 
+
+
+# GeoBackend - Leak Detection & GIS Processing
+
+A Django + PostGIS backend system to automate GIS workflows, leak detection, and geospatial data reporting.
+
+---
+
+## ✅ Features Implemented
+
+- Upload & process CSV data from sensor logs
+- Detect leaks using configurable thresholds
+- Store leak points with geometry (EPSG:4326)
+- View issues via REST API (`/api/issues/`)
+- Environment setup with GeoDjango + GDAL + PostGIS
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repo:
+```bash
+git clone <your-repo-url>
+cd geo_backend
