@@ -21,22 +21,23 @@ This project is a GeoDjango-based backend for processing GIS data uploaded from 
 ```bash
 git clone https://github.com/codex770/berkenbusch1.git
 cd berkenbusch1
-2. Create and activate virtual environment
-bash
-Copy
-Edit
+
+
+
+
+### 2. Create and activate virtual environment
+```bash
 python3 -m venv geodjango-env
 source geodjango-env/bin/activate
-3. Install dependencies
-bash
-Copy
-Edit
+
+
+
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
 If requirements.txt doesn't exist yet, generate it:
 
 bash
-Copy
-Edit
 pip freeze > requirements.txt
 4. Apply migrations
 bash
