@@ -37,19 +37,21 @@ source geodjango-env/bin/activate
 pip install -r requirements.txt
 If requirements.txt doesn't exist yet, generate it:
 
-bash
+```bash
 pip freeze > requirements.txt
-4. Apply migrations
+
+
+### 4. Apply migrations
 bash
-Copy
-Edit
 python manage.py makemigrations
 python manage.py migrate
+
+
 5. Run the development server
 bash
-Copy
-Edit
 python manage.py runserver
+
+
 🔌 API Endpoints
 Method	Endpoint	Description
 POST	/api/upload/	Upload any file (.csv, .kml, .shp, etc)
