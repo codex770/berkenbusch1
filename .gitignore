@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.pot
+*.swp
+.env
+.venv
+venv/
+geodjango-env/
+uploads/
+media/
+db.sqlite3
+.DS_Store
+
